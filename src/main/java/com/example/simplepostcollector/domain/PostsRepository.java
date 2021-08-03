@@ -1,6 +1,6 @@
 package com.example.simplepostcollector.domain;
 
-interface PostsRepository {
+public interface PostsRepository {
     Long save(Post post);
     Post findById(Long id);
 }

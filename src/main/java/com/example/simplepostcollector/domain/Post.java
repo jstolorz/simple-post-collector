@@ -9,7 +9,7 @@ import java.util.Objects;
 
 @Data
 @Entity
-class Post {
+public class Post {
     @Id
     private Long id;
     @Column(name = "USER_ID")
