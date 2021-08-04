@@ -5,6 +5,8 @@ import com.example.simplepostcollector.domain.PostsRepository;
 import lombok.Data;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Data
 @Repository
 class JpaPostsRepository implements PostsRepository {
@@ -20,5 +22,10 @@ class JpaPostsRepository implements PostsRepository {
     public Post findById(final Long id) {
         return springJpaPostRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException());
+    }
+
+    @Override
+    public List<Post> getByTitleContaining(final String text) {
+        return springJpaPostRepository.getByTitleContaining(text);
     }
 }

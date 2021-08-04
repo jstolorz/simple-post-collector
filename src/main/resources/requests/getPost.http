@@ -1,0 +1,10 @@
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/posts?title=quaerat
+Accept: application/json
+Content-Type: application/json
+

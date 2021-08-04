@@ -21,7 +21,7 @@ class PostsConfiguration {
     public Docket docket(){
        return new Docket(DocumentationType.SWAGGER_2)
                .select()
-               .paths(PathSelectors.ant("/post/**"))
+               .paths(PathSelectors.ant("/posts/**"))
                .apis(RequestHandlerSelectors.basePackage("com.example.simplepostcollector"))
                .build().apiInfo(createApiInfo());
     }
