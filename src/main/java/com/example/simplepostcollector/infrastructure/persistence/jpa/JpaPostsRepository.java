@@ -6,6 +6,7 @@ import lombok.Data;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Data
 @Repository
@@ -19,13 +20,17 @@ class JpaPostsRepository implements PostsRepository {
     }
 
     @Override
-    public Post findById(final Long id) {
-        return springJpaPostRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException());
+    public Optional<Post> findById(final Long id) {
+        return springJpaPostRepository.findById(id);
     }
 
     @Override
     public List<Post> getByTitleContaining(final String text) {
         return springJpaPostRepository.getByTitleContaining(text);
+    }
+
+    @Override
+    public void saveAndFlush(final Post post) {
+        springJpaPostRepository.saveAndFlush(post);
     }
 }
