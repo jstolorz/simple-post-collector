@@ -17,6 +17,7 @@ import java.util.Collections;
 @Configuration
 class PostsConfiguration {
 
+
     @Bean
     public Docket docket(){
        return new Docket(DocumentationType.SWAGGER_2)

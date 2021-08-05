@@ -59,7 +59,12 @@ public class PostsService {
    }
 
    public void softDeleteById(Long id){
-
+      var post = getPostById(id);
+      if(post.isDeleted()){
+          throw new PostNotFoundException();
+      }
+      post.setDeleted(true);
+      postsRepository.saveAndFlush(post);
    }
 
    public void update(Post newPostVersion){
