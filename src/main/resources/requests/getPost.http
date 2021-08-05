@@ -8,3 +8,23 @@ GET http://localhost:8080/posts?title=quaerat
 Accept: application/json
 Content-Type: application/json
 
+###
+
+PUT http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 100,
+  "title": "test title",
+  "body": "test body"
+}
+
+###
+
+DELETE http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+
+

@@ -1,0 +1,224 @@
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T133638.200.json
+
+###
+
+PUT http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 100,
+  "title": "test title",
+  "body": "test body"
+}
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T133620.200.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T133557.200.json
+
+###
+
+PUT http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 100,
+  "title": "test title",
+  "body": "test body"
+}
+
+###
+
+DELETE http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T133020.200.json
+
+###
+
+PUT http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 100,
+  "title": "test title",
+  "body": "test body"
+}
+
+###
+
+PUT http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 100,
+  "title": "test title",
+  "body": "test body"
+}
+
+<> 2021-08-05T132949.404.json
+
+###
+
+PUT http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 100,
+  "title": "test title",
+  "body": "test body"
+}
+
+<> 2021-08-05T132904.404.json
+
+###
+
+GET http://localhost:8080/posts?title=quaerat
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T132841.200.json
+
+###
+
+PUT http://localhost:8080/posts/100
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": 100,
+  "title": "test title",
+  "body": "test body"
+}
+
+<> 2021-08-05T132814.404.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T131657.200.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T131544.401.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T130853.401.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T130511.401.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T125949.401.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T125459.401.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T125406.401.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-05T124710.401.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-04T163726.200.json
+
+###
+
+GET http://localhost:8080/posts?title=quaerat
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-04T155328.200.json
+
+###
+
+GET http://localhost:8080/posts
+Accept: application/json
+Content-Type: application/json
+
+<> 2021-08-04T155208.200.json
+
+###
+
